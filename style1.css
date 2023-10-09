@@ -1,0 +1,222 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.flex-col{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+}
+
+.flex-row{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.container{ 
+    margin:20px 0px;
+    height:100vh;
+    width: 100%;   
+}
+.body1{
+    padding:10px 0px;
+    min-height:100vh;
+    background-image: linear-gradient(103.24deg, rgba(0, 8, 29, 0.9) 23.83%, rgba(0, 8, 29, 0.3) 96.1%),url(https://assets.nflxext.com/ffe/siteui/vlv3/61e79073-50cf-4f7b-9a23-73290e6f7dca/d0322828-6d63-4f5f-92fb-30f492e7cca4/IN-en-20230410-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
+.heading{
+    color:#fff;
+    font-weight: bold;
+    font-size: 4rem;
+    position: relative;
+    font-weight: 900;
+    top:0vh;
+    left:5vh;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+
+.nav{
+    border: 1px soild white;
+    display: flex;
+    justify-content: space-between;
+}
+.nav .logo{
+    margin: 0px 30px;
+}
+.buttons{
+
+    display: flex;
+    justify-content: space-between;
+}
+.btn{
+    width:13vh;
+    height:4vh;
+    background-color:transparent;
+    border:1px solid #B6c7cd;
+    border-radius: 5px;
+    border-width: 1px;
+    margin-right:10px;
+    color: #fff;
+    opacity:  0.7;
+}
+
+.btn1{
+    width:10vh;
+    height:4vh;
+    background-color:rgb(255, 43, 43);
+font-weight: bold;
+color:white;
+    font-family: sans-serif;
+    border-radius: 5px;
+    border-width: 0px;
+    margin-right:10px;
+}
+
+.text{
+    /* display: inline-block; */
+    height: 30vh;
+    padding: 150px 0px;
+}
+
+.text p{
+    color:#fff;
+    /* position:relative;
+    top:3vh;
+    left:5vh; */
+    margin: 30px 32px;
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    font-weight:bold ;
+}
+
+h3{
+    color:#fff;
+    margin: 0px 32px;
+    /* position:relative;
+    top:5vh;
+    left:5vh; */
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    font-weight: 1.25rem;
+    
+}
+.text .yes{
+    margin: 0px 25px;
+}
+.text .email{
+width:50vh;
+height:7vh;
+background-color: transparent;
+font-size: 1.5rem;
+padding-left: 20px;
+margin: 30px 10px;
+border-radius: 5px;
+border:1px solid #B6c7cd;
+font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+.start{
+    width:20vh;
+    height:7vh;
+    background-color: rgb(255, 43, 43);
+    color:white;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    border: 0px;
+    transition: transform ease-in-out 0.4s;
+}
+.start:hover{
+cursor: pointer;
+transform: scale(1.1);
+}
+
+.container2{
+    background-color:#000021;       
+    width: 100%;
+    display: flex;
+    padding: 30px 0px;
+}
+
+.items{
+    color:white;
+    background: linear-gradient(152.34deg, #730A2F -1.4%, #170F48 60.78%);
+    border-radius: 0.5rem;
+    width: 42vh;
+    height: 60vh;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,"Roboto",Ubuntu,sans-serif;
+    margin-right: 40px;   
+    transition: transform ease-in-out 0.2s;
+}
+
+
+.bottom{
+    margin: 15px;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,"Roboto",Ubuntu,sans-serif;
+}
+
+.top{
+    margin: 10px;
+}
+
+.container3{
+    background-color:#000021;   
+    padding: 30px; 
+}
+.sub-cont3{
+    color:white;
+    padding-left: 10vh;
+}
+
+li{
+    color:white;
+    /* position: relative;
+    bottom: 105vh; */
+    padding: 3vh;
+    border: 1px solid black;
+    width:150vh;
+    height: 5rem;
+    list-style: none;
+    margin-bottom: 1rem;
+    background-color: rgba(19, 33, 68, 1);
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    transition: transform ease-in 0.5s;
+}
+li:hover{
+    transform: translateX(10vh);
+}
+
+.container3 ul{
+    /* padding-left: 10vh; */
+    padding: 35px 30px;
+}
+
+.text-cont{
+    color: white;
+    font-size: 1.5rem;
+    padding-left: 10vh;
+    font-family: sans-serif;
+}
+.text-cont div{
+    margin: 30px;
+}
+.text-cont .email{
+    margin: 20px 20px;
+    background-color: transparent;
+    width:50vh;
+    height:7vh;
+    border-radius: 5px;
+    border:1px solid #B6c7cd;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.items:hover{
+    transform:scale(1.1);
+}
